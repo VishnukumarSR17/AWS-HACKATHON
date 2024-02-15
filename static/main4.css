@@ -1,0 +1,30 @@
+input {
+    display:none;
+  }
+  
+  .one{
+    width: 10%;
+    height: 20px;
+    display: flex;
+        padding: 1rem;
+    border-radius: 1rem;
+    background: linear-gradient(rgb(28, 28, 105)
+);
+    color: rgb(10, 1, 1);
+    background-color: rgb(235, 225, 225);
+    font-family: sans-serif;
+    transition: all .5s;
+    box-shadow: 1px 1px 15px 3px rgb(104, 104, 108);
+  }
+  label:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  
+  :root {
+    height:100%;
+  }
+  
+body{
+    background-color: rgb(240, 234, 231);
+}
